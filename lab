@@ -1,0 +1,39 @@
+LE36MCA17@fisat:~$ cd /mnt/LE36MCA17
+LE36MCA17@fisat:/mnt/LE36MCA17$ man sort
+LE36MCA17@fisat:/mnt/LE36MCA17$ ls
+aabc                   dbms      file1    lab     project  salary.sql  WEBLAB
+AndroidStudioProjects  DBMS.odt  first36  pl.sql  safe     web
+LE36MCA17@fisat:/mnt/LE36MCA17$ cat> cities.txt
+aluva 70000
+angamally 5000
+mumbai 800000
+london 600000
+chennai 400000
+delhi 900000
+hydrabad 20000
+bengaloru 70000
+kodakara 5000
+kochi 90000^C
+LE36MCA17@fisat:/mnt/LE36MCA17$ sort -n
+^C
+LE36MCA17@fisat:/mnt/LE36MCA17$ man sort
+LE36MCA17@fisat:/mnt/LE36MCA17$ man sort
+LE36MCA17@fisat:/mnt/LE36MCA17$ sort -nk2 cities.txt
+angamally 5000
+kodakara 5000
+hydrabad 20000
+aluva 70000
+bengaloru 70000
+chennai 400000
+london 600000
+mumbai 800000
+delhi 900000
+LE36MCA17@fisat:/mnt/LE36MCA17$ sort -nk2 cities.txt|tail -1
+delhi 900000
+LE36MCA17@fisat:/mnt/LE36MCA17$ sort -nk2 cities.txt|tail -3
+london 600000
+mumbai 800000
+delhi 900000
+LE36MCA17@fisat:/mnt/LE36MCA17$ sort -nk2 cities.txt|tail -3|head -1
+london 600000
+
