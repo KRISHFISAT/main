@@ -1,4 +1,4 @@
-echo "enter a number"
+echo "enter a new number"
 read n
 fact=1
 for (( i=1;i<=n;i=i+1 ))
